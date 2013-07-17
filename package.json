@@ -1,0 +1,16 @@
+{
+    "name": "shipwright",
+    "private": true,
+    "version": "0.0.1",
+    "description": "Sails JS Scaffold Generator",
+    "dependencies": {
+    },
+    "scripts": {
+        "start": "node shipwright.js",
+        "debug": "node debug shipwright.js"
+    },
+    "main": "shipwright.js",
+    "repository": "git@github.com:t73net/shipwright.git#master",
+    "author": "Ronald Chaplin",
+    "license": "MIT"
+}
