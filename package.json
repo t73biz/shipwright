@@ -3,7 +3,10 @@
     "private": true,
     "version": "0.0.1",
     "description": "Sails JS Scaffold Generator",
+    "keywords": "scaffold, generator, sailsjs",
+    "homepage": "http://t73net.github.io/shipwright",
     "dependencies": {
+        "optimist" : "0.6.0"
     },
     "scripts": {
         "start": "node shipwright.js",
