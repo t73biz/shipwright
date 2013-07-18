@@ -3,9 +3,18 @@
     "private": true,
     "version": "0.0.1",
     "description": "Sails JS Scaffold Generator",
-    "keywords": "scaffold, generator, sailsjs",
+    "keywords": [
+        "scaffold",
+        "generator",
+        "sailsjs"
+    ],
     "homepage": "http://t73net.github.io/shipwright",
+    "bugs": {
+        "url" : "http://github.com/t73net/shipwright/issues",
+        "email" : "ron.g.chaplin@gmail.com"
+    },
     "dependencies": {
+        "bash-color" : "0.0.3",
         "optimist" : "0.6.0"
     },
     "scripts": {
@@ -13,7 +22,10 @@
         "debug": "node debug shipwright.js"
     },
     "main": "shipwright.js",
-    "repository": "git@github.com:t73net/shipwright.git#master",
-    "author": "Ronald Chaplin",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/t73net/shipwright.git"
+    },
+    "author": "Ronald Chaplin <ron.g.chaplin@gmail.com> (http://t73.biz)",
     "license": "MIT"
 }
